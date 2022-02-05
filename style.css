@@ -1,0 +1,408 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+/* Scroll Bar Removal */
+body {
+    overflow-x: hidden;
+  }
+
+/* Skills Section */
+.skills {
+    display: flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  
+  .skills i {
+    border: 1px solid transparent;
+    align-items: center;
+    padding-top: 1.25rem;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: #fbfaf4;
+    color: #e26b31;
+  }
+  
+  .skills .heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .skills .col3 {
+    display: inline;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 5rem;
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+  }
+  
+  .col3 .content {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #828282;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .skills .col3 .heading {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .skills .col3 .fas {
+    height: 3.75rem;
+    width: 5rem;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 120px) and (max-width: 760px) {
+    .skills {
+      display: block;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .skills .col3 {
+      width: 3rem;
+    }
+  
+    .skills .heading {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .skills p {
+      padding-bottom: 4%;
+    }
+  }
+
+  /* Sector Section */
+.sector {
+    margin: 10%;
+    padding: 50px;
+    background-color: rgb(255, 227, 231);
+    height: 450px;
+  }
+  
+  .sector h1 {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 40px;
+  }
+  
+  .sector p {
+    text-align: center;
+    color: gray;
+  }
+  
+  .sector ul {
+    text-align: center;
+  }
+  .sector ul li {
+    text-align: center;
+    display: inline-flex;
+  }
+  
+  .sector input {
+    height: 55px;
+    width: 400px;
+    padding-left: 5px;
+    border: none;
+  }
+  
+  .sector li a {
+    border: 2px solid black;
+    padding: 16px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+  }
+  
+  .sector li a:hover {
+    background-color: transparent;
+    color: #333;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 760px) {
+    .sector {
+      margin: 5%;
+      margin-bottom: 20%;
+      height: 600px;
+    }
+    .sector input {
+      width: 12rem;
+      font-size: 12px;
+    }
+  
+    .sector li a {
+      margin: 10px;
+    }
+  
+    .sector li {
+      display: block;
+      padding-right: 32px;
+    }
+  }
+  
+  /* Financial Partners Section */
+  .partner {
+    margin-top: 15%;
+  }
+  
+  .partner h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  
+  .partner .lists {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  .lists1 {
+    display: flex;
+    margin-top: 5%;
+  }
+  
+  .lists2 {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+  
+  .row {
+    display: flex;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+  
+  .row img {
+    width: 100%;
+    height: 9rem;
+  }
+  
+  @media screen and (min-width: 360px) and (max-width: 580px) {
+    .partner {
+      align-items: center;
+    }
+  
+    .partner .lists {
+      display: flex;
+    }
+  
+    .lists1 {
+      display: block;
+    }
+  
+    .lists2 {
+      display: block;
+    }
+  
+    .row img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 580px) and (max-width: 680px) {
+    .partner {
+      align-items: center;
+    }
+  
+    .partner .lists {
+      display: flex;
+    }
+  
+    .lists1 {
+      display: block;
+    }
+  
+    .lists2 {
+      display: block;
+    }
+  
+    .row img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 680px) and (max-width: 760px) {
+    .partner {
+      align-items: center;
+    }
+  
+    .partner .lists {
+      display: flex;
+    }
+  
+    .lists1 {
+      display: block;
+    }
+  
+    .lists2 {
+      display: block;
+    }
+  
+     .partner .row img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 760px) and (max-width: 860px) {
+    .partner .lists {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  
+    .partner .row img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 860px) and (max-width: 980px) {
+    .partner .lists {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  
+    .partner .row img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 980px) and (max-width: 1260px) {
+    .partner .lists {
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  
+    .row img {
+      width: 100%;
+    }
+  }
+
+  /* Footer Section */
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    padding: 5.625rem;
+  }
+  
+  .footer .left {
+    position: relative;
+    padding-top: 0;
+    font-size: 1.25rem;
+  }
+  
+  .footer .right {
+    padding-left: 8rem;
+    font-size: 16px;
+    font-weight: 595;
+    letter-spacing: 0.063rem;
+  }
+  
+  .footer .right .columns {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+  }
+  
+  .logo {
+    display: flex;
+  }
+  
+  .logo img {
+    height: 3rem;
+    -webkit-filter: invert(100%);
+  }
+  
+  .logo .logo2 {
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .colm1 {
+    padding-left: 1.25rem;
+  }
+  
+  .colm2 {
+    padding-left: 2.5rem;
+  }
+  
+  .colm3 {
+    padding-left: 5.5rem;
+  }
+  
+  .columns ul {
+    list-style: none;
+    justify-content: space-between;
+  }
+  
+  .columns ul li {
+    padding: 0.625rem;
+  }
+  
+  .columns ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 1.15rem;
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 760px) {
+    .footer {
+      display: block;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .footer .left {
+      padding-left: 26%;
+      font-size: 1.25rem;
+      padding-bottom: 8%;
+    }
+  
+    .footer .right .columns {
+      display: block;
+      text-align: center;
+    }
+  
+    .colm1 {
+      padding-left: 0;
+    }
+    .colm2 {
+      padding-left: 0;
+    }
+    .colm3 {
+      padding-left: 0;
+    }
+  
+    .footer .right {
+      padding-left: 0;
+      text-align: left;
+    }
+  }
+
+  /* Display None of Circles */
+@media screen and (min-width: 0px) and (max-width: 1450px){
+    .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12{
+      display: none;
+    }
+    }
