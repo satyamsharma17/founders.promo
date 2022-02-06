@@ -5,7 +5,9 @@
 body {
     overflow-x: hidden;
   }
-
+::-webkit-scrollbar{
+  display: none;
+}
   /* Navigation Bar */
   .icons {
     padding-left: 1em;
