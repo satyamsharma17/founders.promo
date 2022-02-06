@@ -961,3 +961,10 @@ body {
       display: none;
     }
     }
+
+    /* 3 Image Section */
+.card-img-top{
+  width:100%;
+  height: 10vw;
+  object-fit: cover;
+}
