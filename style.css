@@ -962,9 +962,13 @@ body {
     }
     }
 
-    /* 3 Image Section */
+/* 3 Image Section */
 .card-img-top{
   width:100%;
   height: 10vw;
   object-fit: cover;
+}
+.row img {
+    width: 100%;
+    height: 20rem !important;
 }
