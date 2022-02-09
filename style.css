@@ -490,17 +490,20 @@ body {
   }
 
   /* Sector Section */
-.sector {
+  .sector {
+    font-family: Poppins;
     margin: 10%;
     padding: 50px;
-    background-color: rgb(255, 227, 231);
-    height: 450px;
+    background-color: #f0ead4;
+    height: 500px;
   }
 
   .sector h1 {
+    font-family: Poppins;
+    font-weight: 600;
     text-align: center;
     margin-top: 45px;
-    font-size: 40px;
+    font-size: 41px;
   }
 
   .sector p {
@@ -510,6 +513,8 @@ body {
 
   .sector ul {
     text-align: center;
+    margin: 2rem;
+    position: relative;
   }
   .sector ul li {
     text-align: center;
@@ -517,15 +522,16 @@ body {
   }
 
   .sector input {
-    height: 55px;
-    width: 400px;
-    padding-left: 5px;
+    height: 70px;
+    width: 40rem;
+    padding-left: 10px;
     border: none;
+    font-style: Poppins;
   }
 
   .sector li a {
     border: 2px solid black;
-    padding: 16px;
+    padding: 18px;
     text-decoration: none;
     background-color: black;
     color: white;
@@ -535,6 +541,56 @@ body {
     background-color: transparent;
     color: #333;
   }
+
+  .sector .left .image2{
+    opacity: 1;
+  animation-name: e11;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  }
+  @keyframes e11 {
+  0%, 60% {transform: translate(0px, 0px) rotate(0deg) scale(-1); opacity: 0; animation-timing-function: linear}
+  99% {transform: translate(0px, 0px) rotate(180deg) scale(-1); opacity: 1; animation-timing-function: linear}
+  100% {transform: translate(0px, 0px) rotate(180deg) scale(-1); opacity: 1; transform: scale(-1);
+  }
+  }
+
+  .sector .left .image3{
+    opacity: 1;
+    animation-name: e12;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    }
+    @keyframes e12 {
+    0%, 55% {transform: translate(0px, 0px) rotate(0deg) scale(1); opacity: 0; animation-timing-function: linear}
+    100% {transform: translate(0px, 0px) rotate(90deg) scale(1); opacity: 1;
+    }
+    }
+
+  .sector .left .image4{
+    opacity: 1;
+    animation-name: e13;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    }
+    @keyframes e13 {
+     0%, 50% {transform: matrix(1.15,0,0,1.15,0,0); opacity: 0; animation-timing-function: linear}
+     100% {transform: matrix(1,0,0,1,0,0) rotate(90deg); opacity: 1;
+    }
+    }
+
+  .sector .left .image5{
+    transform: rotate(90deg) scaleY(-1);
+    animation-name: e14;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    }
+    @keyframes e14{
+    0% {transform: rotate(-270deg); opacity: 0; animation-timing-function: linear}
+    100% {transform: rotate(0deg); opacity: 1;
+    }
+    }
+
 
   @media screen and (min-width: 320px) and (max-width: 760px) {
     .sector {
@@ -556,7 +612,17 @@ body {
       padding-right: 32px;
     }
   }
-
+  @media screen and (min-width: 760px) and (max-width: 1020px){
+    .sector input {
+      height: 70px;
+      width: 28rem;
+      padding-left: 5px;
+      padding-right: 5px;
+      border: none;
+      font-style: Poppins;
+    }
+  }
+  
   /* Financial Partners Section */
   .partner {
     margin-top: 15%;
